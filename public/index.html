@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>A multiplayer game built using HTML5 canvas and WebSockets</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/game.css">
+	</head>
+	
+	<body>
+		<div id="content">			
+			<canvas id="gameCanvas"></canvas>
+			<div id="controls">
+				<button id="Start" onclick=init();>Start</button>
+			</div>
+			<script src="http://code.createjs.com/easeljs-0.6.0.min.js"></script>		
+			<script src="socket.io/socket.io.js"></script>
+			<script src="js/ContentManager.js"></script>
+			<script src="js/Player.js"></script>
+			<script src="js/Game.js"></script>	
+		</div>		
+	</body>
+</html>
