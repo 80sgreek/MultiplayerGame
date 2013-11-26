@@ -1,10 +1,23 @@
 {
-  "name": "Multiplayer Game",
-  "description": "Multiplayer Game",
+  "name": "MultiplayerGame",
+  "description": "MultiplayerGame",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
     "express": "3.x",
-	"io.socket" "latest"	
+	"socket.io": "latest"	
+  },
+  "repository" : { 
+	"type" : "git",
+	"url" : "http://github.com/80sgreek/MultiplayerGame.git"
+  },
+  "contributors": [ 
+    {
+      "name": "nick Thompson",
+      "email": "80sgreek@gmail.com"
+    } 
+  ], 
+  "scripts": {
+    "start": "node game"
   }
 }

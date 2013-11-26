@@ -6,7 +6,7 @@ var util = require("util"),
 	path = require('path'),
 	Player = require("./Player").Player,
 	players = [],
-	port = 80;
+	port = 4000;
 	
 function init() {	
 	server.listen(port);

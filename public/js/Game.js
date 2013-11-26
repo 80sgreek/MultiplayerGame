@@ -42,7 +42,7 @@ function init() {
 	canvas.height = screen_height = 600;//window.innerHeight;
 		
 	remotePlayers = [];
-	socket = io.connect("/", {port: 80, transports: ["websocket"]});
+	socket = io.connect("/", {port: 4000, transports: ["websocket"]});
 	
 	// Start listening for events
 	setEventHandlers();	
